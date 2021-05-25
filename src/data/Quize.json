@@ -1,19 +1,25 @@
 {
     "data": [
       {
-        "question": "What is the capital of Croatia ?",
-        "choices": ["Split", "Osijek", "Zagreb", "Rijeka"],
-        "answer": "Zagreb"
+        "question": "How many cases are there, which are used to compare various data structure's execution time in a relative manner?",
+        "choices": ["2", "3", "4", "5"],
+        "answer": "3"
       },
       {
-        "question": "What is the capital of  ?",
-        "choices": ["Split", "Osijek", "Zagreb", "Rijeka"],
-        "answer": "Zagreb"
+        "question": "In Average case, if operation takes ƒ(n) time in execution, then m operations will take?",
+        "choices": ["ƒ(n)", "f(m)", "mf(n)", "nf(m)"],
+        "answer": "mf(n)"
       },
       {
-        "question": "What is the ca ?",
-        "choices": ["Split", "Osijek", "Zagreb", "Rijeka"],
-        "answer": "Zagreb"
+        "question": "Consider an array A[20, 10], assume 4 words per memory cell and the base address of array A is 100. What is the address of A[11, 5] ? Assume row major storage.",
+        "choices": ["560", "565", "570", "575"],
+        "answer": "560"
+      },
+      {
+        "question": "Let A[1...n] be an array of n distinct numbers. If i < j and A[i] > A[j], then the pair (i, j) is called an inversion of A. What is the expected number of inversions in any permutation on n elements ?",
+        "choices": ["θ(n)", "θ(lgn)", "θ(nlgn)", "θ(n2)"],
+        "answer": "θ(n2)"
       }
+      
     ]
   }

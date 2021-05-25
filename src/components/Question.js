@@ -33,14 +33,13 @@ const Question = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onS
       {
         onSetStep(3);
       }
-      time=0;
     }
 
     return(
         <div className="Home-container">
           {formatTime(time)}
             <div>
-                <h2>{data.question}</h2>
+                <h4>{data.question}</h4>
                 <div className="control" ref={radiosWrapper}>
                 {data.choices.map((choice, i) => (
                     <label className="radio " key={i}>
